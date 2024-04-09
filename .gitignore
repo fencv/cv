@@ -1,3 +1,7 @@
+### Generated files ###
+*.pdf
+*.png
+
 ### TeX ###
 ## Core latex/pdflatex auxiliary files:
 *.aux
