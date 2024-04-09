@@ -1,8 +1,9 @@
 name: Compile PDFs
 
 on:
-  push: {}
-  pull_request: {}
+  push:
+    tags:
+      - '*'
 
 jobs:
   build:
