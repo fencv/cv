@@ -1,0 +1,160 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[circle,noedge,left]{./examples/profile}
+\name{Daniele}{Sergio}
+%\position{Site Reliability Engineer{\enskip\cdotp\enskip}Software Architect}
+\position{Software Engineer}
+\address{kensington 3031, Melbourne Victoria}
+
+\mobile{(+61) 0481 861 643}
+\email{daniele.sergio0@gmail.com}
+%\dateofbirth{January 1st, 1970}
+%\homepage{www.posquit0.com}
+\github{danielesergio}
+\linkedin{danielesergio}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \kaggle{kaggle-id}
+% \hackerrank{hackerrank-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra information}
+
+\quote{The only way to go fast, is to go well - Robert C. Martin, Clean Architecture }
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+
+%\recipient 
+%  {Recruitment Team}
+%  {Google Inc.\\1600 Amphitheatre Parkway\\Mountain View, CA 94043}
+
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for Software Engineer}
+% How the letter is opened
+%\letteropening{Dear Mr./Ms./Dr. Cremin,}
+\letteropening{Dear Hiring Team,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Daniele Sergio~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter information
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+I am writing to apply for the position of software engineer which I saw published on the \href{https://au.indeed.com/cmp/Acira-Consultancy-Pty-Ltd/jobs?jk=89acba6020eca2ce&start=0}{\underline{https://au.indeed.com}}.
+
+\lettersection{About Me}
+During high school, I became passionate about the coding world so I decided to take a degree in Computer Science which has given me a solid grounding in software engineering methodologies.
+
+During my previous jobs (3 years as a Software developer and 6 as a Software Engineer), I could work on abroad several fields from the backend to the DevOps fields. Furthermore, working with different companies with different methodologies, I have learned a lot of transferable skills becoming more flexible and able to relate with different kinds of people.
+
+One of my major activities in the last 6 years was handling an internal project based on the open-source project \href{https://eclipse.dev/hawkbit/}{\underline{Hawkbit}} which I extended with some custom features written in Kotlin (Spring Boot) and Scala (Play). I have also written part of the IAC code for creating the Cloud Infrastructure on AWS using Pulumi, Helm, Docker, Gradle, Python and Typescript.
+
+Until the middle of 2023, I was the main maintainer of the \href{https://projects.eclipse.org/projects/iot.hawkbit.hara}{\underline{Hara}} project (\href{https://github.com/eclipse-hara/hara-ddiclient}{\underline{source code}}) released under the Eclipse foundation, a project which I followed from the projectation to the realisation.
+
+As well as the technical skills I’ve also improved my soft skills by mentoring some students during their internal period and leading a junior Android developer in his everyday work.
+
+\lettersection{Current Visa}
+I am living in Australia with the Working Holiday Visa which allows me to work full-time for a maximum of 6 months with the same employer (it expires in November 14th). After that, I’d like to continue to work for you with a sponsor visa.
+
+Possibly, if you don't want to sponsor me, I plan to remain in Australia for another 6/8 months with a student visa to improve my English to a C1 level (my current English level is a B2). During my time as a student, I may work for you part-time for up to 48 hours every 14 days.
+%\lettersection{Why Google?}
+
+\lettersection{Why Me?}
+
+I am a hard worker with a strong ethic, able to work in a team and individually. In this position, I will be able to give a valuable contribution to the application team with my knowledge of Java and object-oriented paradigms matured with years of experience.
+
+I would very much appreciate it if you considered my application. I am available for an interview any weekday between 15:00 the 19:00 (except Friday 19th and Monday 22th).
+
+I Look forward to hearing from you.
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter information
+\makeletterclosing
+
+\end{document}
+ 	 	
